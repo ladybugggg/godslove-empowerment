@@ -1,0 +1,225 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+header div{
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: black;
+
+}
+
+header div ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2rem;
+    color: whitesmoke;
+    padding: 1.2rem 2rem;
+
+}
+
+header div ul li{
+    list-style: none;
+}
+
+header div ul li i{
+    color: goldenrod;
+}
+
+header div ul i{
+    color: goldenrod;
+}
+
+
+header div ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+
+}
+
+header div ul li:nth-child(2){
+    margin-right: 40rem;
+}
+
+
+
+
+
+
+header nav{
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: whitesmoke;
+
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    color: black;
+    /* padding-top: 1.5rem; */
+    padding: 1.5rem 0 1.5rem 2rem;
+
+
+
+}
+
+header nav ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header nav ul li a{
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    color: red|;
+}
+
+header nav ul button{
+    font-size: 18px;
+    background:green;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+}
+
+header nav ul button a{
+    text-decoration: none;
+}
+
+header nav ul button:hover{
+    background: orangered;
+}
+
+header nav ul button a{
+    color: white;
+    font-size: 20px;
+
+}
+
+header nav ul .brand{
+    margin-right: 35rem;
+    text-decoration: none;
+    font-size: 30px;
+    text-wrap: nowrap;
+    color: goldenrod;
+    font-weight: 700;
+}
+
+header nav ul .brand:hover{
+    color: orangered;
+}
+
+
+section main{
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.39);
+    background-image: url(./img/market\ woman\ smiling.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    text-align: center;
+    color: white;
+    padding: 15% 0;
+    line-height: 60px;
+    
+}
+
+
+
+section main h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: rgb(255, 204, 32);
+}
+
+section main p{
+    font-size: 20px;
+    font-weight: 600;
+    font-style:oblique;
+}
+
+section main button{
+    font-size: 20px;
+    border: 2px solid white;
+    background-color: rgb(255, 69, 0, 0.497);
+    /* background: transparent; */
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-weight: 500;
+    height: 70px;
+
+}
+
+section main button a{
+    color: white;
+    text-decoration: none;
+
+}
+
+section main button:hover{
+    background:orangered;
+    padding: 15px 50px;
+    transition: all 2s;
+}
+
+
+section div{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    /* padding: 0.2rem 2rem; */
+
+}
+    
+
+section aside:nth-child(1){
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0.2rem 2rem; */
+    /* background-color: white; */
+    background: yellow;
+
+
+}
+
+section aside:nth-child(1) h1{
+    font-size: 40px;
+}
+
+main aside:nth-child(1) p{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    padding: 6rem 4rem;
+}
+
+
+section aside:nth-child(2){
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+
+}

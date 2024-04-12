@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body h2{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+nav  .navbar-nav .menu-item{
+    
+    padding-right: 2rem;
+    /* padding: 4rem 3rem 0 0; */
+    /* background: red; */
+}
+
+nav ul {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+nav .btn{
+    padding: 1rem 1.5rem;
+    font-size: 18px;
+    color: white;
+    background: orangered;
+    border: 1px purple;
+
+}
+
+nav .btn:hover{
+    background: limegreen !important;
+}
+
+
+nav ul li a{
+    font-size: 18px;    
+}
+
+nav ul li a:hover{
+    color: orangered !important;
+}
+
+nav .navbar-brand{
+    color: orangered !important;
+    font-weight: 800;
+    font-size: 25px;
+    
+}
+
+nav .navbar-brand:hover{
+    color: limegreen !important;
+    font-weight: 900;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 75vh;
+    background-image: url(./img/happy\ market\ woman.avif);
+    background-color: brown;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 10%;
+}
+
+section aside{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 60vh;
+    background: rgba(221, 220, 220, 0.893);
+    margin: auto 0 auto 48rem;
+    padding: 2rem 3rem;
+}
+
+section aside h2{
+    font-weight: 800;
+    font-size: 48px;
+
+}
+section aside p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgb(55, 55, 55);
+
+}
+
+main{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+}
+
+main aside:nth-child(1){
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    background: limegreen;
+    padding: 2rem 8rem;
+
+}
+main aside:nth-child(2){
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 2rem 1rem 5rem 1rem;
+    gap: 1rem;
+
+}
+
+main aside:nth-child(2) .highlight{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    gap: 0.1rem;
+    background: #ebebeb;
+}
+
+main aside:nth-child(2) .highlight .highlight-image{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+main aside:nth-child(2) .highlight .highlight-content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+main aside:nth-child(2) .highlight img{
+    width: 8vw;
+    height: 15vh;
+}
+
+
+
+
+
+figure{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    background: orangered;
+    padding-left: 12rem;
+    align-items: center;
+    gap: 6rem;
+    margin-bottom: 0;
+}
+
+
+
+figure p{
+    font-size: 36px;
+    color: white;
+}
+
+figure button{
+    padding: 1rem 5rem;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+
+
+.mission{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 4rem 4rem 4rem 5rem;
+    align-items: center;
+    /* background: red; */
+    flex-wrap: wrap;
+    margin-top: 0;
+
+}
+
+.mission h2{
+    text-align: left;
+
+}
+
+.mission p{
+    text-align: justify;
+}
+
+.mission div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mission aside{
+    width: 30%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.mission aside div img{
+    width: 27vw;
+    height: 40vh;
+}
+
+.stat{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #F0F1F2;
+}
+
+.stat .stat-heading{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-top: 2rem;
+
+}
+
+.stat .stat-percent{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 2rem 20rem;
+}
+
+.stat .stat-percent p{
+    padding: 1rem 8rem 2rem 0;
+}
+
+
+.stat div img{
+    width: 15vw;
+    height: 30vh;
+}
+
+.last-bg{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    background-image: url(./img/market\ woman\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.last-bg .lastbg-aside{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 65vh;
+    /* background: rgb(255, 69, 0, 0.893); */
+    background: rgb(50, 205, 50, 0.893);
+    /* background:rgb(222, 184, 135, 0.893); */
+    margin: 3rem 20rem 2rem 4rem;
+    padding: 3rem 3rem;
+    
+}
+
+.last-bg .lastbg-aside p{
+    color: white;
+    font-size: 18px;
+    padding: 3rem 4rem;
+}
+
+
+
+
+
+.blog{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 4rem 3rem 4rem 8rem;
+    /* align-items: center; */
+    /* background: red; */
+    flex-wrap: wrap;
+    margin-top: 0;
+
+}
+
+.blog h2{
+    text-align: left;
+
+}
+
+.blog p{
+    text-align: left;
+    
+}
+
+.blog div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.blog aside{
+    width: 20%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog aside div img{
+    width: 18vw;
+    height: 30vh;
+}
+
+.footer{
+    width: 100%;
+    height: 20vh;
+    padding: 2rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #403A60;
+}
+
+.footer p{
+    /* text-align: center; */
+}
+
