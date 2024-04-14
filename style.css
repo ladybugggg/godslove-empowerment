@@ -1,225 +1,762 @@
-*{padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body h2{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+body h3{
+    font-size: 34px;
+    font-weight: 700px;
+}
+
+
+
+nav .navbar-nav .dropdown1{
+    /* background: red; */
+    position: static !important;
+
+}
+
+nav .navbar-nav .dropdown1 .whatwedo-menu{
+    margin: 0 0 0 10rem;
+    width: 75% !important;
+    box-shadow: 0.5rem 1rem rgba(0, 0, 0, .15);
+    height: 82vh;
+    background: white;
+    padding: 0 0rem;
+}
+
+.navbar-nav .dropdown1 .whatwedo-menu .vision{
+    /* box-shadow: 0.5rem 1rem rgba(0, 0, 0, .15); */
+    /* background: yellow; */
+    padding: 1rem 3rem;
+    /* text-align: center; */
 
 }
 
 
-header div{
-    width: 100%;
-    height: 9vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    background: black;
 
+
+nav ul {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-header div ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 2rem;
-    color: whitesmoke;
-    padding: 1.2rem 2rem;
-
-}
-
-header div ul li{
-    list-style: none;
-}
-
-header div ul li i{
-    color: goldenrod;
-}
-
-header div ul i{
-    color: goldenrod;
-}
-
-
-header div ul li a{
-    text-decoration: none;
+nav .btn{
+    padding: 1rem 3rem;
+    font-size: 18px;
     color: white;
+    background: limegreen;
+    border: 1px purple;
+
+}
+
+nav .btn:hover{
+    background:orangered !important;
+}
+
+
+nav ul li a{
+    font-size: 18px;    
+}
+
+nav ul li a:hover{
+    color: orangered !important;
+}
+
+nav .navbar-brand{
+    color: orangered !important;
+    font-weight: 800;
+    font-size: 25px;
+    
+}
+
+nav .navbar-brand:hover{
+    color: limegreen !important;
+    font-weight: 900;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90vh;
+    background-image: url(./img/happy\ market\ woman.avif);
+    background-color: brown;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -5%;
+}
+
+section aside{
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    background: rgba(221, 220, 220, 0.893);
+    margin: 8.5rem 0 0 45rem;
+    padding: 0rem 3rem 0rem 3rem;
+}
+
+section aside h3{
+    font-weight: 800;
+    font-size: 48px;
+
+}
+section aside p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgb(55, 55, 55);
+
+}
+
+main{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+}
+
+main aside:nth-child(1){
+    width: 50%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    background: limegreen;
+    padding: 2rem 6rem;
+
+}
+main aside:nth-child(2){
+    width: 50%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 2rem 1rem 5rem 1rem;
+    gap: 1rem;
+
+}
+
+main aside:nth-child(2) .highlight{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    gap: 0.1rem;
+    background: #ebebeb;
+}
+
+main aside:nth-child(2) .highlight .highlight-image{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+main aside:nth-child(2) .highlight .highlight-content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+main aside:nth-child(2) .highlight img{
+    width: 8vw;
+    height: 15vh;
+}
+
+
+
+
+
+figure{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    background: orangered;
+    padding-left: 12rem;
+    align-items: center;
+    gap: 6rem;
+    margin-bottom: 0;
+}
+
+
+
+figure p{
+    font-size: 36px;
+    color: white;
+}
+
+figure button{
+    padding: 1rem 5rem;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
     font-weight: 400;
 
 }
 
-header div ul li:nth-child(2){
-    margin-right: 40rem;
-}
 
 
-
-
-
-
-header nav{
+.mission{
     width: 100%;
-    height: 14vh;
+    height: 90vh;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    background: whitesmoke;
+    gap: 3rem;
+    padding: 4rem 4rem 4rem 5rem;
+    align-items: center;
+    /* background: red; */
+    flex-wrap: wrap;
+    margin-top: 0;
 
 }
 
-header nav ul{
+.mission h3{
+    text-align: center;
+
+}
+
+.mission p{
+    text-align: justify;
+}
+
+.mission div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mission div a:hover{
+    color: red;
+}
+
+
+.mission aside{
+    width: 30%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.mission aside div img{
+    width: 27vw;
+    height: 40vh;
+}
+
+.stat{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #F0F1F2;
+}
+
+.stat .stat-heading{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-top: 2rem;
+
+}
+
+.stat .stat-percent{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 2rem 20rem;
+}
+
+.stat .stat-percent p{
+    padding: 1rem 8rem 2rem 0;
+}
+
+
+.stat div img{
+    width: 15vw;
+    height: 30vh;
+}
+
+.last-bg{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    background-image: url(./img/market\ woman\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.last-bg .lastbg-aside{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 65vh;
+    /* background: rgb(255, 69, 0, 0.893); */
+    background: rgb(50, 205, 50, 0.893);
+    /* background:rgb(222, 184, 135, 0.893); */
+    margin: 3rem 20rem 2rem 4rem;
+    padding: 3rem 3rem;
+    
+}
+
+.last-bg .lastbg-aside p{
+    color: white;
+    font-size: 18px;
+    padding: 3rem 4rem;
+}
+
+
+
+
+
+.blog{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 4rem 3rem 4rem 8rem;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* background: red; */
+    margin-top: 0;
+
+}
+
+.blog h2{
+    text-align: left;
+
+}
+
+.blog p{
+    text-align: left;
+    
+}
+
+.blog div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.blog aside{
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    background: white;
+
+}
+
+.blog aside div img{
+    width: 25vw;
+    height: 30vh;
+}
+
+.blog aside div a{
+    /* text-decoration: none; */
+}
+.blog aside div a:hover{
+    color: red;
+}
+
+footer{
+    width: 100%;
+    height: 30vh;
+    padding: 2rem 10rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 2rem;
+    align-items: center;
+    background: #D3D3D3;
+    padding: 2rem 4rem;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+footer .footer1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0 1rem 4rem
+}
+footer .footer2{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 4rem;
+}
+footer .footer3{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+
+}
+footer .footer4{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 5rem 1rem 0;
+
+}
+
+footer .footer1 a, .footer2 a, .footer3 a, .footer4 a{
+    text-decoration: none;
     color: black;
-    /* padding-top: 1.5rem; */
-    padding: 1.5rem 0 1.5rem 2rem;
+    font-size: 14px;
 
+}
+
+footer .footer1 p, .footer2 p, .footer3 p, .footer4 p{
+    line-height: 10px;
+    font-weight:400;
 
 
 }
 
-header nav ul li{
-    list-style: none;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-header nav ul li a{
-    text-decoration: none;
-}
-
-header nav ul li a:hover{
-    color: red|;
-}
-
-header nav ul button{
-    font-size: 18px;
-    background:green;
-    border-radius: 10px;
-    border: none;
-    padding: 10px 20px;
-}
-
-header nav ul button a{
-    text-decoration: none;
-}
-
-header nav ul button:hover{
-    background: orangered;
-}
-
-header nav ul button a{
-    color: white;
-    font-size: 20px;
-
-}
-
-header nav ul .brand{
-    margin-right: 35rem;
-    text-decoration: none;
+.footer1 i{
+    color: orangered;
     font-size: 30px;
-    text-wrap: nowrap;
-    color: goldenrod;
-    font-weight: 700;
+    letter-spacing: 8px;
 }
 
-header nav ul .brand:hover{
+ .footer4 button{
+
+    padding: 1rem 0;
+    text-wrap: nowrap;
+    border: none;
+    /* background: linear-gradient(to right, orangered, limegreen); */
+    background: orangered;
+    color: white;
+    /* font-size: 16px; */
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+
+
+ }
+
+ .footer4 button a {
+    color: white;
+    font-size: 18px;
+ }
+
+ .footer4 button:hover{
+    background: limegreen;
+ }
+
+
+ /* Contact CSS */
+
+.contact{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background: rgb(82, 83, 85);
+
+    justify-content: space-between;
+    color: whitesmoke;
+    padding: 7rem 4rem;
+    
+}
+
+.contact .address{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.contact .message{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact .message form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contact .message form div button{
+    padding: 0.5rem 3rem;
+    margin: 0.2rem 0 1rem 0;
+    border: none;
+}
+
+.contact .message form div button a{
+    text-decoration: none;
+    color: black;
+}
+.contact .message form div button a:hover{
+    color:red;
+}
+
+
+.contact .message form input{
+    padding-right: 4rem;
+    width: 100%;
+    height: 40px;
+}
+.contact .message form label span{
+    color: red;
+}
+
+.contact .address div a{
+    color: limegreen;
+    /* text-decoration: none; */
+}
+
+.contact .address div a:hover{
     color: orangered;
 }
 
 
-section main{
-    height: 70vh;
-    background: rgba(0, 0, 0, 0.39);
-    background-image: url(./img/market\ woman\ smiling.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: overlay;
+
+/* Location - South East CSS */
+
+.south-east{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    /* background: grey; */
+    background:rgb(82, 83, 85);
+    ;
+    color: black;
+}
+
+.south-east .south-eastleft{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    color: whitesmoke;
+    flex-direction: column;
+    padding: 14rem 4rem;
+}
+
+
+.south-eastlocations{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 3rem;
+    flex-direction: row;
+    color: black;
+    padding: 5rem 4rem;
+    background: white;
+}
+
+.south-eastlocations h3{
     text-align: center;
-    color: white;
-    padding: 15% 0;
-    line-height: 60px;
+}
+
+
+.south-eastlocations div{
+    width: 33%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.south-eastlocations div p{
+    color: rgb(82, 83, 85);
     
 }
-
-
-
-section main h1{
-    font-size: 60px;
-    font-weight: 800;
-    color: rgb(255, 204, 32);
-}
-
-section main p{
-    font-size: 20px;
-    font-weight: 600;
-    font-style:oblique;
-}
-
-section main button{
-    font-size: 20px;
-    border: 2px solid white;
-    background-color: rgb(255, 69, 0, 0.497);
-    /* background: transparent; */
-    padding: 15px 40px;
-    border-radius: 10px;
-    font-weight: 500;
-    height: 70px;
+.south-eastlocations div h3{
+    color: rgb(82, 83, 85);
 
 }
 
-section main button a{
-    color: white;
+
+/* Partners CSS */
+
+.partners{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    /* background: grey; */
+    background:rgb(82, 83, 85);
+    color: black;
+    color: whitesmoke;
+    display: flex;
+    padding: 8rem 4rem;
+    gap: 2rem;
+}
+
+.partners a{
     text-decoration: none;
-
+    color: limegreen;
 }
-
-section main button:hover{
-    background:orangered;
-    padding: 15px 50px;
-    transition: all 2s;
+.partners a:hover{
+    color: red;
 }
 
 
-section div{
+.partner-list{
     width: 100%;
     height: 60vh;
     display: flex;
+    /* justify-content: space-evenly; */
+    gap: 3rem;
     flex-direction: row;
-    /* padding: 0.2rem 2rem; */
-
+    color: black;
+    padding: 5rem 4rem;
+    background: white;
+    /* flex-wrap: wrap; */
 }
+
+.meet-partners{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 6rem 4rem 0 4rem;
+    /* justify-content: center; */
+}
+
+
+.partner-list h3{
+    /* text-align: center; */
+}
+
+
+.partner-list div{
+    width: 33%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.partner-list div p{
+    color: rgb(82, 83, 85);
     
+}
+.partner-list div h3{
+    color: rgb(82, 83, 85);
 
-section aside:nth-child(1){
-    width: 50%;
-    height: 30vh;
+}
+
+.partners div button{
+    padding: 1rem 3rem;
+    border: none;
+    
+}
+
+.partners div button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.partners div button:hover{
+    background: orangered;
+}
+
+
+/* Strategy CSS */
+
+.strategy{
+    width: 100%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    /* padding: 0.2rem 2rem; */
-    /* background-color: white; */
-    background: yellow;
-
-
-}
-
-section aside:nth-child(1) h1{
-    font-size: 40px;
-}
-
-main aside:nth-child(1) p{
-    font-size: 40px;
-    font-weight: 400;
-    text-align: center;
-    padding: 6rem 4rem;
+    /* background: grey; */
+    background:rgb(82, 83, 85);
+    color: black;
+    color: whitesmoke;
+    display: flex;
+    padding: 8rem 4rem;
+    gap: 2rem;
 }
 
 
-section aside:nth-child(2){
-    width: 50%;
-    height: 30vh;
+.partner-list{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 3rem;
+    flex-direction: row;
+    color: black;
+    padding: 5rem 4rem;
+    background: white;
+    /* flex-wrap: wrap; */
+}
+
+.meet-partners{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    padding: 6rem 4rem 0 4rem;
+    /* justify-content: center; */
+}
+
+
+.partner-list h3{
+    /* text-align: center; */
+}
+
+
+.partner-list div{
+    width: 33%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.partner-list div p{
+    color: rgb(82, 83, 85);
+    
+}
+.partner-list div h3{
+    color: rgb(82, 83, 85);
 
 }
+
+.strategy div button{
+    padding: 1rem 3rem;
+    border: none;
+    
+}
+
+.strategy div button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.strategy div button:hover{
+    background: orangered;
+}
+
+
+
+
+
+
